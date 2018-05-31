@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+    <ImageButton
+        android:id="@+id/btn_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_launcher"/>
+
+    <ImageButton
+        android:id="@+id/btn_compass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20.0dip"
+        android:layout_marginLeft="20.0dip"
+        android:contentDescription="@null"
+        android:onClick="showWebView"
+        android:src="@drawable/ic_launcher"/>
+
+    <ToggleButton
+        android:id="@+id/btn_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_launcher"
+        android:textOff=""
+        android:textOn=""/>
+
+    <WebView
+        android:id="@+id/imgWebView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="right|center_vertical"
+        />
+</LinearLayout>
